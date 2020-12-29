@@ -34,6 +34,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
+    "@iconify-icons/ant-design": "^1.1.0",
+    "@iconify-icons/bi": "^1.1.0",
+    "@iconify-icons/emojione": "^1.1.0",
+    "@iconify-icons/entypo": "^1.1.0",
+    "@iconify-icons/ic": "^1.1.1",
     "@iconify/icons-bi": "^1.0.6",
     "@iconify/icons-carbon": "^1.0.4",
     "@iconify/icons-ic": "^1.0.16",

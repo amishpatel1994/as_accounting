@@ -3,8 +3,7 @@ import React from 'react';
 import Layout from '../components/Layout';
 import PageFooter from '../components/PageFooter';
 import SideBar from '../components/SideBar';
-import ExperienceSection from '../components/ExperienceSection'
-import ProjectSection from '../components/ProjectSection';
+import ServicesSection from '../components/ServicesSection'
 
 import pic8 from '../assets/images/portrait.jpg';
 import Scroll from '../components/Scroll';
@@ -13,7 +12,7 @@ import './index.scss';
 const sections = [
   { id: 'top', name: 'Home', icon: 'fa-home' },
   { id: 'about', name: 'About Us', icon: 'fa-user' },
-  { id: 'experience', name: 'Services', icon: 'fa-book' },
+  { id: 'service', name: 'Services', icon: 'fa-book' },
   // { id: 'projects', name: 'Pricing', icon: 'fa-code' },
   { id: 'contact', name: 'Contact', icon: 'fa-envelope' },
 ];
@@ -26,15 +25,15 @@ const IndexPage = () => (
       <section id="top" className="one dark cover">
         <div className="container">
           <header>
-            <h2 className="alt">
-              Hi Aashna boo! My name is <strong>Amish</strong> but I'm actually not Amish...
+            <h2 className="main-heading">
+              Professional Accounting Services
             </h2>
-            <p>Jack of all trades and on my quest to master the software stack</p>
+            <h3>For Individuals and Businesses</h3>
           </header>
 
           <footer>
-            <Scroll type="id" element={'experience'}>
-              <a href="#experience" className="button">
+            <Scroll type="id" element={'service'}>
+              <a href="#service" className="button">
                 Let's dive in!
               </a>
             </Scroll>
@@ -45,10 +44,10 @@ const IndexPage = () => (
       <section id="about" className="two">
         <div className="container">
           <header>
-            <h2>About Me</h2>
+            <h2>About Us</h2>
           </header>
 
-          <a href="/#" className="image featured">
+          {/* <a href="/#" className="image featured">
             <img src={pic8} alt="" />
           </a>
 
@@ -64,26 +63,22 @@ const IndexPage = () => (
           </p>
           <p>
             That's it from me for now! If you have an impactful project you'd love for me to be a part of, please shoot me a message <Scroll type="id" element={"contact"}><a href="#contact"> below.</a></Scroll>
-          </p>
+          </p> */}
         </div>
       </section>
 
-      <section id="experience" className="three">
-        <ExperienceSection />
-      </section>
-
-      <section id="projects" className="four">
-        <ProjectSection />
+      <section id="service" className="three">
+        <ServicesSection />
       </section>
 
       <section id="contact" className="five">
         <div className="container">
           <header>
-            <h2>Contact Me</h2>
+            <h2>Contact Us</h2>
           </header>
 
           <form
-            action="https://formspree.io/amishpatel94@hotmail.com"
+            action="https://formspree.io/asbookkeepersgta@gmail.com"
             method="POST"
           >
           <label>
