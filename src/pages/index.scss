@@ -1,0 +1,33 @@
+.skills-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.skill-badge {
+  align-self: flex-start;
+  background-color: #e27689;
+  padding: 0 4px;
+  margin: 2px !important;
+  border-radius: 3px;
+  pointer-events: none;
+}
+
+.vertical-timeline-element-content .vertical-timeline-element-date {
+  float: left;
+  padding: 0;
+  opacity: 1;
+}
+
+.vertical-timeline-element-description {
+  text-align: left;
+  color: #000;
+}
+
+.demo-container {
+  float: right;
+}
+
+.demo-container > * {
+  margin: 0px 4px;
+}
