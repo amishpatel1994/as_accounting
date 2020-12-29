@@ -11,10 +11,10 @@ import Scroll from '../components/Scroll';
 import './index.scss';
 
 const sections = [
-  { id: 'top', name: 'Intro', icon: 'fa-home' },
-  { id: 'about', name: 'About Me', icon: 'fa-user' },
-  { id: 'experience', name: 'Work and Education', icon: 'fa-briefcase' },
-  { id: 'projects', name: 'Projects', icon: 'fa-code' },
+  { id: 'top', name: 'Home', icon: 'fa-home' },
+  { id: 'about', name: 'About Us', icon: 'fa-user' },
+  { id: 'experience', name: 'Services', icon: 'fa-book' },
+  // { id: 'projects', name: 'Pricing', icon: 'fa-code' },
   { id: 'contact', name: 'Contact', icon: 'fa-envelope' },
 ];
 
