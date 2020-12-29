@@ -4,11 +4,11 @@
   "description": "Gatsby.js V2 starter template based on Prologue by HTML5 UP",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/amishpatel1994/amishpatel1994.github.io.git"
+    "url": "git+https://github.com/amishpatel1994/as_accounting.git"
   },
   "author": {
-    "name": "Anubhav Srivastava",
-    "email": "anubhav.srivastava00@gmail.com"
+    "name": "Amish Patel",
+    "email": "amishpatel94@hotmail.com"
   },
   "dependencies": {
     "gatsby": "^2.20.2",
@@ -50,7 +50,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/amishpatel1994/amishpatel1994.github.io/issues"
+    "url": "https://github.com/amishpatel1994/as_accounting/issues"
   },
-  "homepage": "https://github.com/amishpatel1994/amishpatel1994.github.io#readme"
+  "homepage": "https://github.com/amishpatel1994/as_accounting#readme"
 }

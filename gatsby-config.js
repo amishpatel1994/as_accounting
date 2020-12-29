@@ -1,15 +1,15 @@
 module.exports = {
   pathPrefix: '/',
   siteMetadata: {
-    title: 'Amish Patel',
+    title: 'A.S. Accounting',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Portfolio',
-        short_name: 'Landing',
+        name: 'A.S. Accounting',
+        short_name: 'A.S. Accounting',
         start_url: `/`,
         background_color: '#663399',
         theme_color: '#663399',

@@ -8,25 +8,40 @@ import iotPlatform from '@iconify/icons-carbon/iot-platform';
 
 
 export default {
-  authorName: 'Amish',
-  heading: 'Software Engineer | Data Scientist',
+  authorName: 'A.S. Accounting',
+  heading: 'Professional Accounting Services',
   // social
   socialLinks: [
-    {
-      icon: 'fa-github',
-      name: 'Github',
-      url: 'https://github.com/amishpatel1994',
-    },
-    {
-      icon: 'fa-linkedin',
-      name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/amish-patel-a558a364/',
-    },
+    // {
+    //   icon: 'fa-github',
+    //   name: 'Github',
+    //   url: 'https://github.com/amishpatel1994',
+    // },
+    // {
+    //   icon: 'fa-linkedin',
+    //   name: 'Linkedin',
+    //   url: 'https://www.linkedin.com/in/amish-patel-a558a364/',
+    // },
     {
       icon: 'fa-envelope-o',
       name: 'Email',
-      url: 'mailto:av2patel94@gmail.com',
+      url: 'mailto:asbookkeepersgta@gmail.com',
     },
+    {
+      icon: 'fa-phone',
+      name: "Call Aashna",
+      url: 'tel:4163035720',
+    },
+    {
+      icon: 'fa-phone',
+      name: "Call Sonal",
+      url: 'tel:6472325491',
+    },
+    {
+      icon: 'fa-instagram',
+      name: 'Instagram',
+      url: 'https://www.instagram.com/pennies_to_bills/'
+    }
   ],
   experiences: [
     {
