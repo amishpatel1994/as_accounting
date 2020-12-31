@@ -1,18 +1,8 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/ffc9564a-3d4c-42f8-a8c3-7d20c556d19a/deploy-status)](https://app.netlify.com/sites/elastic-chandrasekhar-86906e/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f0f6c090-45ff-4ccb-8d3a-2ac8c017a7d3/deploy-status)](https://app.netlify.com/sites/affectionate-nobel-53905e/deploys)
 
-# Portfolio
+# A.S. Accounting 
 
-This is my portfolio made with <3 using reactjs and gatsby.
-
-
-### Personalization
-
-Edit `config.js` to put up your details
-
-### Deploying using Github page
-
-`package.json` has a default script that uses `gh-pages` module to publish on Github pages. Simply running `npm run deploy` would publish the site on github pages.
-
+This is the repository holding the code for the A.S. accounting services static web app. 
 
 ### Acknowledgments
 
