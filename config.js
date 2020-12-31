@@ -49,88 +49,29 @@ export default {
   ],
   services: [
     {
-      title: 'Bookkeeping for Individuals/Businesses',
-      icon: <Icon icon={openBook} />
+      title: 'Full Cycle Bookkeeping for Individuals & Businesses',
+      icon: <Icon icon={openBook} />,
+      content: 'We will take care of your day to day bookkeeping needs so you can spend time on making important business decisions. We can help with: maintaining General Ledgers, creating journal entries, monthly reconciliation of bank records, credit cards, accounts receivable, accounts payable, and data entry.'
     },
     {
-      title: 'Personal Tax Returns',
-      icon: <Icon icon={calculatorIcon} />
+      title: 'Income Tax Filing',
+      icon: <Icon icon={calculatorIcon} />,
+      content: 'We keep up with the latest in CRA tax legislation and file your tax returns by utilizing applicable tax strategies to reduce costs, increase profitability, and maximize tax efficiency.'
     },
     {
       title: 'Payroll Processing',
-      icon: <Icon icon={dollarOutlined} />
+      icon: <Icon icon={dollarOutlined} />,
+      content: 'We run your employee payrolls, file payroll taxes, maintain employee payroll records and prepare monthly reports.'
     },
     {
       title: 'Invoice Processing',
-      icon: <Icon icon={sharpReceiptLong} />
-    },
-  ],
-  projects: [
-    {
-      title: 'Spaced Repetition',
-      description: 'Built to keep track of review tasks using the concept of spaced repetition',
-      date: 'Aug 2020',
-      type: 'Chrome Extension - Personal Project',
-      mainIcon: <Icon icon={reactIcon} />,
-      gitLink: 'https://github.com/amishpatel1994/SpacedRepetition',
-      demoLink: 'https://chrome.google.com/webstore/detail/spacedrepetition/iplpbaappjaabjkaihgjhlkimfolcdgp',
-      memoriesLink: '',
-      skills: ['reactjs', 'chrome-extension', 'reactstrap', 'css']
+      icon: <Icon icon={sharpReceiptLong} />,
+      content: 'We will help you manage your supplier invoices by ensuring adequate receipt of the invoice, payment to the supplier, and record-keeping using a general ledger which will free up your time for important business decisions and will help you increase your cash flow.'
     },
     {
-      title: 'Hyperparameter Analysis for Image Captioning',
-      description: 'Conducted experiments with two different architectures for image captioning: CNN-based enoder + Attention-based LSTM Decoder and CNN encoder + Transformer Decoder',
-      date: 'Feb 2020 - Apr 2020',
-      type: 'Deep Learning - Research Project',
-      mainIcon: <Icon icon={pytorchIcon} />,
-      gitLink: 'https://github.com/aravindvarier/Image-Captioning-Pytorch',
-      demoLink: '',
-      memoriesLink: '',
-      skills: ['pyTorch', 'CNN', 'LSTM', 'Attention', 'Transformers']
-    },
-    {
-      title: 'Github Stats',
-      description: 'Web application that shows all the repositories watched by a particular user',
-      date: 'Feb 2020',
-      type: 'Web Application - Personal Project',
-      mainIcon: <Icon icon={phoenixIcon} />,
-      gitLink: 'https://github.com/amishpatel1994/githubstats',
-      demoLink: '',
-      memoriesLink: '',
-      skills: ['Phoenix', 'Elixir']
-    },
-    {
-      title: 'Bitcoin Price Prediction',
-      description: 'Performed time-series forecasting using BiDirectional LSTM network',
-      date: 'Dec 2019',
-      type: 'Deep Learning - Research Project',
-      mainIcon: <Icon icon={tensorflowIcon} />,
-      gitLink: 'https://github.com/amishpatel1994/BitcoinPricePrediction',
-      demoLink: 'https://github.com/amishpatel1994/BitcoinPricePrediction/blob/master/price_prediction.ipynb',
-      memoriesLink: '',
-      skills: ['Tensorflow', 'LSTM']
-    },
-    {
-      title: 'MuscleMix',
-      description: 'Generates randomized workouts based on the muscle groups you want to work on for the day',
-      date: 'Dec 2018 - Sep 2019',
-      type: 'React Native - Personal Project',
-      mainIcon: <Icon icon={reactIcon} />,
-      gitLink: '',
-      demoLink: 'https://apps.apple.com/gb/app/muscle-mix/id1457276561?fbclid=IwAR3S7pHQlEjSTgZnCoTdnK_v6LR-qofYPS3XqkECrj4NDprV8ceDCN14X_g',
-      memoriesLink: 'https://www.linkedin.com/feed/update/urn:li:activity:6580622501087457280/',
-      skills: ['React Native', 'Redux-Saga']
-    },
-    {
-      title: 'Voice',
-      description: 'Sign to Speech Translation glove performed using accelerometer+flex sensors, phone, and arduino',
-      date: 'May 2016 - Apr 2017',
-      type: 'Wearable - Fourth Year Design Project',
-      mainIcon: <Icon icon={iotPlatform} />,
-      gitLink: 'https://github.com/3browns1asian',
-      demoLink: '',
-      memoriesLink: 'https://www.instagram.com/p/BR9naG8hIhAOkGfl6r8rRErU1wbpI9ZIAJ8gP80/',
-      skills: ['Arduino', 'Android Development', 'Machine Learning', 'sklearn', 'flask']
+      title: 'Financial Statements',
+      icon: <Icon icon={dollarOutlined} />,
+      content: 'We assist in the preparation of monthly/annual financial statements such as a Balance Sheet and Income Statement for sole-proprietorships or other small businesses.'
     }
   ]
 };
