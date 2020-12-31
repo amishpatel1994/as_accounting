@@ -1,3 +1,6 @@
+body {
+  font-family: 'Source Sans Pro', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 .skills-container {
   display: flex;
   flex-direction: row;
@@ -38,4 +41,51 @@ h2 .main-heading {
 
 .align-left {
   text-align: left;
+}
+
+.container p {
+  font-size: larger;
+  text-align: justify;
+  color: #545454;
+}
+
+.about-us-grid {
+  display: grid;
+  grid-template-columns: repeat(autofill, 1fr 1fr);
+  grid-template-rows: auto;
+  grid-template-areas: 
+  "quad1 quad2"
+  "quad3 quad4";
+  grid-gap: 0.5em;
+  color: #685c5c;
+
+
+  *.subheading {
+    color: #88c112;
+    font-weight: 400;
+  }
+
+  &>div {
+    padding: 1em;
+  }
+}
+
+
+.about-item-a {
+  grid-area: quad1;
+  background-color: #d2cdcd;
+}
+.about-item-b {
+  grid-area: quad2;
+  background-color: #dfdfdf;
+
+}
+.about-item-c {
+  grid-area: quad3;
+  background-color: #dfdfdf;
+
+}
+.about-item-d {
+  grid-area: quad4;
+  background-color: #d2cdcd;
 }

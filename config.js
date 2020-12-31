@@ -13,6 +13,7 @@ import sharpReceiptLong from '@iconify-icons/ic/sharp-receipt-long';
 export default {
   authorName: 'A.S. Accounting',
   heading: 'Professional Accounting Services',
+  logoUrl: 'src/assets/images/logo.png',
   // social
   socialLinks: [
     // {
